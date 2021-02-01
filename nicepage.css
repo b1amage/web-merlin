@@ -31395,13 +31395,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-header .u-image-1 {
-    margin-left: -50px;
+    margin-right: -30px;
+    margin-left: auto;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -43px;
-    margin-right: -24px;
-    margin-bottom: 45px;
+    margin: -43px auto 45px -12px;
   }
 }
 .u-footer .u-sheet-1 {
