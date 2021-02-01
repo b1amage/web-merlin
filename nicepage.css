@@ -31395,9 +31395,9 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-header .u-image-1 {
-    width: 167px;
     margin-top: 28px;
     margin-left: auto;
+    width: auto;
   }
 
   .u-header .u-menu-1 {

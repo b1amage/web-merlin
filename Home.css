@@ -18,8 +18,12 @@ html,body{
 }
 
 @media (max-width: 575px) {
+  .u-section-1-1 {
+    background-position: 58.77% 50%;
+  }
+
   .u-section-1-1 .u-sheet-1 {
-    min-height: 908px;
+    min-height: 244px;
   }
 }.u-section-1-2 {
   background-image: url("images/Untitled-3.jpg");
@@ -38,7 +42,7 @@ html,body{
 
 .u-section-1-2 .u-text-2 {
   font-size: 1.5rem;
-  margin: 20px 60px 0 0;
+  margin: 20px 30px 0;
 }
 
 .u-section-1-2 .u-btn-1 {
@@ -46,7 +50,7 @@ html,body{
   border-style: none;
   font-weight: 700;
   font-size: 1.25rem;
-  margin: 20px auto 60px 33px;
+  margin: 20px auto 60px 63px;
   padding: 16px 72px 16px 71px;
 }
 
@@ -61,6 +65,7 @@ html,body{
 
   .u-section-1-2 .u-text-2 {
     margin-right: 0;
+    margin-left: 0;
   }
 
   .u-section-1-2 .u-btn-1 {
@@ -90,26 +95,26 @@ html,body{
 
 @media (max-width: 575px) {
   .u-section-1-2 .u-sheet-1 {
-    min-height: 908px;
+    min-height: 244px;
   }
 
   .u-section-1-2 .u-text-1 {
-    font-size: 2.8125rem;
-    margin-top: 12px;
-    margin-left: -50px;
-    margin-right: -50px;
+    font-size: 2.25rem;
+    width: auto;
+    margin-top: 69px;
+    margin-left: -28px;
   }
 
   .u-section-1-2 .u-text-2 {
-    margin-top: 547px;
+    margin-top: 155px;
     margin-left: -50px;
     margin-right: -50px;
   }
 
   .u-section-1-2 .u-btn-1 {
-    margin-top: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
     margin-left: auto;
-    margin-bottom: 50px;
   }
 }.u-section-6-1 {
   background-image: none;
