@@ -1,3 +1,11 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 .u-section-1-1 {
   background-image: url("images/slidebar1.jpg");
   background-position: 50% 50%;
