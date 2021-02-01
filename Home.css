@@ -23,7 +23,7 @@ html,body{
   }
 
   .u-section-1-1 .u-sheet-1 {
-    min-height: 244px;
+    min-height: 251px;
   }
 }.u-section-1-2 {
   background-image: url("images/Untitled-3.jpg");
@@ -95,26 +95,27 @@ html,body{
 
 @media (max-width: 575px) {
   .u-section-1-2 .u-sheet-1 {
-    min-height: 244px;
+    min-height: 251px;
   }
 
   .u-section-1-2 .u-text-1 {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
     width: auto;
-    margin-top: 69px;
-    margin-left: -28px;
+    margin-top: 86px;
+    margin-right: -28px;
   }
 
   .u-section-1-2 .u-text-2 {
-    margin-top: 155px;
+    margin-top: 151px;
     margin-left: -50px;
     margin-right: -50px;
   }
 
   .u-section-1-2 .u-btn-1 {
     margin-top: 0;
-    margin-bottom: 0;
     margin-left: auto;
+    margin-bottom: 32px;
+    padding: 6px 26px 7px 24px;
   }
 }.u-section-6-1 {
   background-image: none;
