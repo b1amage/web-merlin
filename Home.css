@@ -691,7 +691,6 @@ html,body
 
 .u-section-3 .u-custom-html-1 {
   min-height: 322px;
-  height: auto;
   margin: 60px 769px 0 46px;
 }
 
@@ -702,21 +701,22 @@ html,body
 }
 
 .u-section-3 .u-text-1 {
-  margin: -111px auto 0 46px;
+  margin: -111px 912px 0 46px;
 }
 
 .u-section-3 .u-text-2 {
   font-size: 1.5rem;
-  margin: 40px auto 0 398px;
+  margin: 40px 521px 0 398px;
 }
 
 .u-section-3 .u-text-3 {
   font-weight: 700;
   font-size: 1.875rem;
-  margin: 14px 46px 0 auto;
+  margin: 14px 46px 0 399px;
 }
 
 .u-section-3 .u-text-4 {
+  font-size: 0.875rem;
   margin: 20px 0 0 399px;
 }
 
@@ -735,6 +735,7 @@ html,body
     margin-left: 0;
     margin-right: 615px;
     width: 570px;
+    height: auto;
   }
 
   .u-section-3 .u-image-1 {
@@ -744,10 +745,12 @@ html,body
   }
 
   .u-section-3 .u-text-1 {
+    margin-right: 758px;
     margin-left: 38px;
   }
 
   .u-section-3 .u-text-2 {
+    margin-right: 421px;
     margin-left: 146px;
   }
 
@@ -759,7 +762,6 @@ html,body
   .u-section-3 .u-text-4 {
     margin-right: 184px;
     margin-left: 146px;
-    font-size: 0.875rem;
   }
 
   .u-section-3 .u-text-5 {
@@ -779,10 +781,12 @@ html,body
 
   .u-section-3 .u-text-1 {
     margin-top: 20px;
+    margin-right: 538px;
     margin-left: 0;
   }
 
   .u-section-3 .u-text-2 {
+    margin-right: 311px;
     margin-left: 126px;
   }
 
@@ -812,7 +816,12 @@ html,body
     margin-right: 390px;
   }
 
+  .u-section-3 .u-text-1 {
+    margin-right: 358px;
+  }
+
   .u-section-3 .u-text-2 {
+    margin-right: 221px;
     margin-left: 95px;
   }
 
@@ -850,11 +859,13 @@ html,body
   .u-section-3 .u-text-1 {
     width: auto;
     margin-top: 0;
+    margin-right: 158px;
   }
 
   .u-section-3 .u-text-2 {
     width: auto;
     margin-top: 20px;
+    margin-right: 119px;
     margin-left: 0;
   }
 
@@ -877,7 +888,8 @@ html,body
     margin-bottom: 50px;
   }
 }.u-section-4 {
-  background-image: none;
+  background-image: url("images/background-tet-don-gian_105956853.jpg");
+  background-position: 50% 0%;
 }
 
 .u-section-4 .u-sheet-1 {
@@ -893,20 +905,20 @@ html,body
 .u-section-4 .u-text-1 {
   animation-duration: 1000ms;
   font-size: 2.25rem;
-  margin: -29px 533px 0 0;
+  margin: -27px 590px 0 84px;
 }
 
 .u-section-4 .u-text-2 {
   font-size: 3rem;
   font-weight: 700;
   animation-duration: 1000ms;
-  margin: 16px 630px 0 0;
+  margin: 15px 546px 0 84px;
 }
 
 .u-section-4 .u-text-3 {
   font-size: 1.5rem;
   animation-duration: 1000ms;
-  margin: 16px 1047px 0 0;
+  margin: 15px 963px 0 84px;
 }
 
 .u-section-4 .u-btn-1 {
@@ -1020,6 +1032,10 @@ html,body
 }
 
 @media (max-width: 575px) {
+  .u-section-4 {
+    background-position: 13.95% 0%;
+  }
+
   .u-section-4 .u-sheet-1 {
     min-height: 1237px;
   }
