@@ -1,3 +1,11 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 .u-section-1-1 {
   background-image: url("images/Untitled-2.jpg");
   min-height: 617px;
