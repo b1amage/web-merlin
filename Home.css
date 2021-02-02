@@ -707,23 +707,23 @@ html,body
 
 .u-section-3 .u-text-2 {
   font-size: 1.5rem;
-  margin: 40px auto 0 176px;
+  margin: 40px auto 0 398px;
 }
 
 .u-section-3 .u-text-3 {
   font-weight: 700;
   font-size: 1.875rem;
-  margin: 14px auto 0 176px;
+  margin: 14px 46px 0 auto;
 }
 
 .u-section-3 .u-text-4 {
-  margin: 20px 223px 0 176px;
+  margin: 20px 0 0 399px;
 }
 
 .u-section-3 .u-text-5 {
   font-size: 1.25rem;
   text-decoration: underline !important;
-  margin: 100px 23px 60px 376px;
+  margin: 100px 0 60px 399px;
 }
 
 .u-section-3 .u-btn-1 {
@@ -752,6 +752,7 @@ html,body
   }
 
   .u-section-3 .u-text-3 {
+    margin-right: 38px;
     margin-left: 146px;
   }
 
@@ -785,6 +786,7 @@ html,body
   }
 
   .u-section-3 .u-text-3 {
+    margin-right: 29px;
     margin-left: 126px;
   }
 
@@ -814,6 +816,7 @@ html,body
   }
 
   .u-section-3 .u-text-3 {
+    margin-right: 22px;
     margin-left: 95px;
   }
 
@@ -852,6 +855,7 @@ html,body
   .u-section-3 .u-text-3 {
     font-size: 1.5rem;
     width: auto;
+    margin-right: 14px;
     margin-left: 0;
   }
 
