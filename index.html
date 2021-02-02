@@ -149,9 +149,39 @@ Trải nghiệm ngay bộ sản phẩm skincare cao cấp dành riêng cho nam t
         <h1 class="u-align-left u-custom-font u-font-montserrat u-text u-text-body-alt-color u-text-1" data-animation-name="lightSpeedIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">Sample Headline</h1>
         <h1 class="u-align-left u-custom-font u-font-montserrat u-text u-text-palette-3-light-1 u-title u-text-2" data-animation-name="lightSpeedIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">Welcome to Merlin</h1>
         <p class="u-align-left-xs u-custom-font u-font-montserrat u-text u-text-body-alt-color u-text-3" data-animation-name="lightSpeedIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">Text</p>
+        <div class="u-align-left u-clearfix u-custom-html u-expanded-width-xs u-custom-html-1">
+          <div id="countdown" style="text-align: center"><b>
+              <p style="font-size:40px" id="demo"></p></b><b>
+              <span style="font-size:30px; color: white; text-align: center" class="time">Days</span></b><b>
+              <span style="font-size:30px; color: white; text-align: center" class="time">Hrs</span></b><b>
+              <span style="font-size:30px; color: white; text-align: center" class="time">Mins</span></b><b>
+              <span style="font-size:30px; color: white; text-align: center" class="time">Secs</span></b>
+          </div>
+          <script> // Set the date we're counting down to
+var countDownDate = new Date("Feb 3, 2022 15:37:25").getTime();
+ // Update the count down every 1 second
+var x = setInterval(function() {
+ // Get today's date and time
+var now = new Date().getTime();
+ // Find the distance between now and the count down date
+var distance = countDownDate - now;
+ // Time calculations for days, hours, minutes and seconds
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+ // Output the result in an element with id="demo"
+document.getElementById("demo").innerHTML = days + " : " + hours + " : "
++ minutes + " : " + seconds;
+ // If the count down is over, write some text
+if (distance < 0) {
+clearInterval(x);
+document.getElementById("demo").innerHTML = "EXPIRED";
+}
+}, 1000); </script>
+        </div>
         <a href="https://www.facebook.com/messages/t/470983700332137" class="u-active-custom-color-1 u-btn u-btn-round u-button-style u-custom-color-1 u-hover-grey-30 u-radius-50 u-btn-1">Grab it now!</a>
-        <img src="images/28876e5432538a34d3439137167fda8fdbc199b6f094bc4247eee93982a8c4a1da964675794623c3b3c8bb870b11ca6a749c9bda6e98f9165d51a9_1280.jpg" alt="" class="u-image u-image-default u-image-2" data-image-width="1280" data-image-height="853">
-        <div class="u-border-3 u-border-grey-90 u-line u-line-horizontal u-line-1"></div>
+        <img src="images/28876e5432538a34d3439137167fda8fdbc199b6f094bc4247eee93982a8c4a1da964675794623c3b3c8bb870b11ca6a749c9bda6e98f9165d51a9_1280.jpg" alt="" class="u-expanded-width-xs u-image u-image-default u-image-2" data-image-width="1280" data-image-height="853">
       </div>
     </section>
     <section class="u-align-center u-clearfix u-section-5" id="sec-88c5">
